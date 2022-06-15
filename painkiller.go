@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//go:generate stringer -type=Pill
+//go:generate go run golang.org/x/tools/cmd/stringer -type=Pill
 
 type Pill int
 
